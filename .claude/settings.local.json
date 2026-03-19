@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm run:*)",
+      "Bash(NODE_OPTIONS='--require ./node-compat.cjs' npx next dev --turbopack 2>&1)",
+      "Bash(claude mcp:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright"
+    ]
+  }
+}
